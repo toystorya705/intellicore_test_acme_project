@@ -1,0 +1,11 @@
+{
+    "name": "aryan/random-password-generator",
+    "description": "A simple package to generate random passwords",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RandomPasswordGenerator\\": "src/"
+        }
+    },
+    "require": {}
+}
