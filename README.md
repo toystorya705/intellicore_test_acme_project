@@ -12,6 +12,8 @@ Installation
 •	        }
 •	    },
 
+
+
 •	To install the package, use Composer: Composer install
 •	Then add migration access_code migration file to your migration folder.
 •	Then run: php artisan migrate
