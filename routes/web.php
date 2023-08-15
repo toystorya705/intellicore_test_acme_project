@@ -18,4 +18,11 @@ Route::get('/', function () {
 });
 Route::namespace('App\Http\Controllers')->group(function () {
     Route::get('/generate-random-password', 'RandomPasswordController@generateRandomPassword');
+    Route::get('/generate-random-password/checkUser', 'RandomPasswordController@getUserCode');
+    Route::get('/generate-random-password/deleteUser', 'RandomPasswordController@deleteUserCode');
+    Route::get('/generate-random-password/resetCode', 'RandomPasswordController@resetUserCode');
+    Route::get('/generate-random-password/checkCode', 'RandomPasswordController@checkCode');
+
+
+
 });

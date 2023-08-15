@@ -31,7 +31,10 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "RandomPasswordGenerator\\": "random-password-generator/src/",
+            "CodeService\\": "random-password-generator/src"
+
         }
     },
     "autoload-dev": {
