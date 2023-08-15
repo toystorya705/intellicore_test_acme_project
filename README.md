@@ -1,6 +1,9 @@
 RandomPasswordGenerator Composer Package
 The RandomPasswordGenerator package provides a simple and flexible solution for generating secure and customizable random passwords. This package is designed to be easily integrated into your Laravel projects, allowing you to create strong passwords according to specified rules.
+
+
 *GitHub project link: https://github.com/toystorya705/intellicore_test_acme_project
+
 Installation
 •	Add package to RandomPasswordGenerator file to your project.
 •	Add the following to your projects’ composer.js
@@ -18,6 +21,7 @@ Installation
 •	Then add migration access_code migration file to your migration folder.
 •	Then run: php artisan migrate
 •	Then setup AccessCode Model 
+
 * File location in the project
 Migration file: \database\migrations\2023_08_14_030013_create_access_codes_table.php
 Model file: \app\Models\AccessCode.php
